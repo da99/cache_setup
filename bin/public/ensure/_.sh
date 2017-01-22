@@ -1,6 +1,6 @@
 
 # === {{CMD}}  # Exists 1 if Redis server not found.
-ensure-setup () {
+ensure () {
 
   if ! type redis-cli &>/dev/null ; then
     echo "!!! Install redis."
